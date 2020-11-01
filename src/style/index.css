@@ -43,9 +43,38 @@ ul {
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .main {
   width: 100%;
   margin-top: 30px;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+h2 {
+  padding-top: 0px;
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(0, 110, 255);
+}
+
+.months {
+  color: blueviolet;
 }
 
 .about {
@@ -59,11 +88,6 @@ ul {
   width: 220px;
   height: 300px;
   margin-left: 120px;
-}
-
-h2 {
-  margin-top: 50px;
-  margin-left: 20px;
 }
 
 .container {
@@ -82,19 +106,8 @@ h2 {
   justify-content: space-between;
 }
 
-.img1 {
-  width: 100%;
-}
-
-h2 {
-  padding-top: 0px;
-  margin-left: 0px;
-}
-
-.img2 {
-  width: 100%;
-}
-
+.img1,
+.img2,
 .img3 {
   width: 100%;
 }
