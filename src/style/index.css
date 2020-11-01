@@ -13,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-header,
-main,
-footer {
-  border: 1px solid lightblue;
-}
-
 .header {
   background-color: black;
   display: flex;
@@ -162,6 +156,7 @@ a {
 }
 
 .footer {
-  position: fixed;
-  margin-bottom: 10px;
+  background-color: lightgrey;
+  margin-top: 10px;
+  text-align: center;
 }
