@@ -17,4 +17,106 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  color: white;
+}
+
+header,
+main,
+footer {
+  border: 1px solid lightblue;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links ul {
+  width: 100%;
+}
+
+.nav-links li {
+  margin-left: 20%;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.about {
+  background-color: lightgray;
+  width: 220px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.article-1 {
+  border: 3px solid lightgray;
+  width: 30%;
+  position: fixed;
+  margin-left: 360px;
+  margin-top: -300px;
+}
+
+.img1 {
+  width: 100%;
+}
+
+h2 {
+  padding-top: 0px;
+  margin-left: 0px;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.img3 {
+  width: 100%;
+}
+
+.article-2 {
+  width: 30%;
+  position: fixed;
+  margin-left: 980px;
+  margin-top: -320px;
+  border: 3px solid lightgray;
+}
+
+.article-3 {
+  border: 3px solid lightgray;
+  width: 30%;
+  position: fixed;
+  margin-top: 180px;
+  margin-left: 360px;
+}
+
+.login {
+  width: 20%;
+  position: fixed;
+  margin-top: 180px;
+  margin-left: 360px;
+}
+
+.footer {
+  position: fixed;
+  margin-bottom: 0px;
 }
